@@ -12,10 +12,11 @@ function change() {
 
   let response = "pigs"
 
-  text.innerText = ("Answer:" + response)
+  text.innerText = ("Hello, " + name.value + ", you have gone through the pigsifying machine. You are now a pig.")
 
-  /* text.innerText = ("Answer: " + name.value) */
-
+  /* text.innerText = (name.value) */
+  console.log("Secret message for " + name.value)
+  name.value = ""
 }
 
 function hues() {
